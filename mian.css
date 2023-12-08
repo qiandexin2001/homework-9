@@ -1,0 +1,63 @@
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+  background-color: rgb(255, 238, 242);
+}
+
+* {
+  margin: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #294b1b;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #113b26;
+  font-family: "Audiowide", sans-serif;
+}
+
+h2 {
+  font-size: 2em;
+  color: #53763c;
+  border-bottom: 2px solid #4caf50;
+  margin-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+img {
+  max-width: 900px;
+}
+
+div {
+  color: #777;
+}
+
+/* Add more styles as needed */
+
+/* Apply a simple responsive design */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+}
